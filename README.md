@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: creating a dangling pointer.  The `bug.rs` file contains code that leads to undefined behavior because it uses a pointer to data that is no longer valid after the vector is dropped. The `bugSolution.rs` shows how to avoid this by using safe Rust techniques.
